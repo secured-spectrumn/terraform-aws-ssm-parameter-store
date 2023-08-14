@@ -23,7 +23,6 @@ variable "parameter_write_defaults" {
     description     = null
     type            = "SecureString"
     tier            = "Standard"
-    overwrite       = "false"
     allowed_pattern = null
     data_type       = "text"
   }
